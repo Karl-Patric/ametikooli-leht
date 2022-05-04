@@ -1,0 +1,181 @@
+
+
+.end{
+    
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.start{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+}
+
+.between{
+    
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.around{
+    
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.evenly{
+    
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.center{
+    
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sisud {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 20px;
+    
+}
+
+.main{
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    padding-top: 20px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pildid{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 70px;
+    width: 100px;
+    background-color: white;
+}
+
+img{
+    object-fit: contain;
+    width: 150px;
+    height: 60px;
+}
+
+h3{
+    margin: 0px 0px 15px;
+    font-size: 21px;
+    
+}
+
+.kast{
+    height: 75px;
+    width: 175px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.kast2{
+    font-size: 16px;
+}
+
+
+.kast3{
+    font-size: 16px;
+}
+
+.amet100{
+    height: 100px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.nupud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 350px;
+    
+}
+
+.nupud2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu{
+    background-color: rgb(236, 236, 236);
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 151);
+}
+
+@media only screen and (max-width: 600px){
+  
+    .main{
+        flex-direction: column;
+    }
+   .kast1{
+       display: none;
+   }
+   .sisud{
+    width: 5px;
+    height: 5px;
+   }
+   
+    .menu{
+        flex-direction: column;
+    }
+
+    .amet100{
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .a{
+    margin-right: 10px;
+    }
+   
+ 
+}
